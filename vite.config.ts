@@ -13,6 +13,9 @@ export default defineConfig({
     }),
     md({}),
   ],
+  server: {
+    port: 3333,
+  },
   build: {
     target: "es2022",
   },

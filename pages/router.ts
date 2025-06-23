@@ -1,5 +1,5 @@
 import { createMemoryHistory, createRouter as _createRouter, createWebHistory } from 'vue-router'
-
+import Home from './Home.vue';
 export { createRouter }
 
 function createRouter() {
@@ -10,7 +10,7 @@ function createRouter() {
     routes: [
       {
         path: '/',
-        component: () => import('./Home.vue')
+        component: Home
       },
       {
         path: '/about',
