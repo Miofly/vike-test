@@ -1,8 +1,8 @@
-import md from "unplugin-vue-markdown/vite";
 import vue from "@vitejs/plugin-vue";
-import vercel from "vite-plugin-vercel";
-import { defineConfig } from "vite";
+import md from "unplugin-vue-markdown/vite";
 import vike from "vike/plugin";
+import { defineConfig } from "vite";
+import vercel from "vite-plugin-vercel";
 
 export default defineConfig({
   plugins: [
@@ -18,5 +18,18 @@ export default defineConfig({
   },
   build: {
     target: "es2022",
+  },
+  // 自定义别名
+  resolve: {
+    alias: {
+      "@": "/src",
+      "@components": "/src/components",
+      "@pages": "/src/pages",
+      "@layouts": "/src/layouts",
+      "@assets": "/src/assets",
+      "@utils": "/src/utils",
+      "@types": "/src/types",
+      "@styles": "/src/styles",
+    },
   },
 });
