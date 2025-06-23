@@ -4,7 +4,7 @@ export default onRenderHtml;
 import { renderToString } from "@vue/server-renderer";
 import { dangerouslySkipEscape, escapeInject } from "vike/server";
 import type { PageContext } from "vike/types";
-import { createApp } from "../app";
+import { createApp } from "./main";
 
 async function onRenderHtml(pageContext: PageContext) {
   const { Page } = pageContext;

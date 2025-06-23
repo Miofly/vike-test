@@ -23,13 +23,6 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": "/src",
-      "@components": "/src/components",
-      "@pages": "/src/pages",
-      "@layouts": "/src/layouts",
-      "@assets": "/src/assets",
-      "@utils": "/src/utils",
-      "@types": "/src/types",
-      "@styles": "/src/styles",
     },
   },
 });

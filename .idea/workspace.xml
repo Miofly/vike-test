@@ -5,30 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b193296c-1e88-40a4-af5a-22864fc8397b" name="Changes" comment="feat: 1">
-      <change afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Content.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Counter.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Link.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Logo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sidebar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/todoItems.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/+Page.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/+onRenderClient.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/+onRenderHtml.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/+route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/app.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/router.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/+onRenderClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/+onRenderClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/+onRenderHtml.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/+onRenderHtml.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,27 +40,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wfly/Documents/code/github/my-app-9snQ4/pages&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/wfly/Documents/code/github/my-app-9snQ4/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "last_opened_file_path": "/Users/wfly/Documents/code/github/my-app-9snQ4/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/wfly/Documents/code/github/my-app-9snQ4/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/routes" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -87,7 +87,7 @@
       <workItem from="1750647083873" duration="488000" />
       <workItem from="1750647631336" duration="848000" />
       <workItem from="1750658170010" duration="419000" />
-      <workItem from="1750658597411" duration="3923000" />
+      <workItem from="1750658597411" duration="6313000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 1">
       <option name="closed" value="true" />
@@ -105,11 +105,55 @@
       <option name="project" value="LOCAL" />
       <updated>1750660429241</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: 1">
+      <option name="closed" value="true" />
+      <created>1750663616952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750663616952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="b25bbf18-5685-446d-b4ae-3f755c0c5bee" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="b25bbf18-5685-446d-b4ae-3f755c0c5bee">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/wfly/Documents/code/github/my-app-9snQ4/src/pages" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />

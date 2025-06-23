@@ -20,7 +20,11 @@
       "vite-plugin-vercel/types"
     ],
     "jsx": "react-jsx",
-    "jsxImportSource": "vue"
+    "jsxImportSource": "vue",
+    "paths": {
+      "@/*": ["src/*"],
+      "#/*": ["types/*"]
+    }
   },
   "exclude": [
     "dist"

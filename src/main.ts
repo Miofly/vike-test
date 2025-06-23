@@ -1,5 +1,5 @@
 import { createSSRApp } from "vue";
-import { createRouter } from "./router";
+import { createRouter } from "./routes";
 
 export { createApp };
 
