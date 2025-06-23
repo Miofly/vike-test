@@ -2,7 +2,7 @@
 export default onRenderClient;
 
 import type { PageContext } from "vike/types";
-import { createApp } from "./main";
+import { createApp } from "../main";
 
 async function onRenderClient(pageContext: PageContext) {
   const { Page } = pageContext;

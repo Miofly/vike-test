@@ -19,6 +19,17 @@ export default defineConfig({
   build: {
     target: "es2022",
   },
+  // Sass 配置
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `
+          @import "@/styles/variables.scss";
+          @import "@/styles/mixins.scss";
+        `,
+      },
+    },
+  },
   // 自定义别名
   resolve: {
     alias: {
