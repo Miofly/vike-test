@@ -7,4 +7,8 @@
 h1 {
   color: green;
 }
+
+p {
+  color: red;
+}
 </style>
